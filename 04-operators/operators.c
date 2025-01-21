@@ -1,6 +1,5 @@
-// Variables and Data Types in C
+// Operators in C
 #include<stdio.h>
-#include<stdbool.h> // for using the boolean data type (see below)
 
 // This is a single line comment in C
 int main()

@@ -21,6 +21,7 @@ int main()
     printf("The result upto two decimal places is: %0.2f \n", y);
     printf("The lucky-draw result is letter: %c \n", z);
     printf("The name is %s \n", name);
+    printf("Value of PI is %f", PI);
 
     return 0;
 }

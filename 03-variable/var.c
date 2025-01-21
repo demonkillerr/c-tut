@@ -16,6 +16,8 @@ int main()
     char z = 'c';           // character
     char name[] = "dmkl";   // string
 
+    const float PI = 3.14;  // const (variable value cannot change)
+
     printf("The result upto two decimal places is: %0.2f \n", y);
     printf("The lucky-draw result is letter: %c \n", z);
     printf("The name is %s \n", name);
@@ -53,4 +55,9 @@ C] Format Specifiers:
 D] Printing to console:
 printf("The value of the data is %fs", data)
     where '%fs' is format specifier stated above and 'data' is name of the variable
+
+E] Constants:
+const int PI;
+prevents any operation from changing the value of a variable (say PI)
+good practice to keep const variable's name uppercase
 */
